@@ -7,6 +7,15 @@
 //
 
 import UIKit
+var userName: String = "MED NAME "
+var userDosage: String = "DOSAGE "
+
+
+
+
+
+
+
 
 class ViewController: UIViewController {
 
@@ -17,4 +26,29 @@ class ViewController: UIViewController {
 
 
 }
+
+
+
+
+class ViewController2: UIViewController{
+    
+    @IBOutlet weak var medName1: UITextField!
+    @IBOutlet weak var medDosage1: UITextField!
+    @IBOutlet weak var medName1OutPut: UILabel!
+    @IBOutlet weak var medDosageOutPut: UILabel!
+    
+    
+    @IBAction func submitPressed(_ sender: Any) {
+        
+        userName = medName1.text!
+        userDosage = medDosage1.text!
+        medName1OutPut.text = userName
+        medDosageOutPut.text = userDosage
+        
+    }
+    
+}
+
+
+
 

@@ -13,6 +13,10 @@
 		4CFDAD2C227D384D0029C1A0 /* MedicineReminderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDAD2A227D384D0029C1A0 /* MedicineReminderApp.xcdatamodeld */; };
 		4CFDAD2E227D38500029C1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD2D227D38500029C1A0 /* Assets.xcassets */; };
 		4CFDAD31227D38500029C1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD2F227D38500029C1A0 /* LaunchScreen.storyboard */; };
+		4CFDAD3B227D48C50029C1A0 /* MED MINDERX.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD3A227D48C50029C1A0 /* MED MINDERX.png */; };
+		4CFDAD3E227D49850029C1A0 /* medsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD3C227D49850029C1A0 /* medsIcon.png */; };
+		4CFDAD3F227D49850029C1A0 /* phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD3D227D49850029C1A0 /* phoneIcon.png */; };
+		4CFDAD41227D4A460029C1A0 /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDAD40227D4A460029C1A0 /* rectangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4CFDAD2D227D38500029C1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CFDAD30227D38500029C1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CFDAD32227D38500029C1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CFDAD3A227D48C50029C1A0 /* MED MINDERX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MED MINDERX.png"; path = "art/MED MINDERX.png"; sourceTree = "<group>"; };
+		4CFDAD3C227D49850029C1A0 /* medsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medsIcon.png; path = art/medsIcon.png; sourceTree = "<group>"; };
+		4CFDAD3D227D49850029C1A0 /* phoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneIcon.png; path = art/phoneIcon.png; sourceTree = "<group>"; };
+		4CFDAD40227D4A460029C1A0 /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle.png; path = art/rectangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		4CFDAD22227D384D0029C1A0 /* MedicineReminderApp */ = {
 			isa = PBXGroup;
 			children = (
+				4CFDAD40227D4A460029C1A0 /* rectangle.png */,
+				4CFDAD3C227D49850029C1A0 /* medsIcon.png */,
+				4CFDAD3D227D49850029C1A0 /* phoneIcon.png */,
+				4CFDAD3A227D48C50029C1A0 /* MED MINDERX.png */,
 				4CFDAD23227D384D0029C1A0 /* AppDelegate.swift */,
 				4CFDAD25227D384D0029C1A0 /* ViewController.swift */,
 				4CFDAD27227D384D0029C1A0 /* Main.storyboard */,
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFDAD3E227D49850029C1A0 /* medsIcon.png in Resources */,
 				4CFDAD31227D38500029C1A0 /* LaunchScreen.storyboard in Resources */,
 				4CFDAD2E227D38500029C1A0 /* Assets.xcassets in Resources */,
 				4CFDAD29227D384D0029C1A0 /* Main.storyboard in Resources */,
+				4CFDAD3B227D48C50029C1A0 /* MED MINDERX.png in Resources */,
+				4CFDAD41227D4A460029C1A0 /* rectangle.png in Resources */,
+				4CFDAD3F227D49850029C1A0 /* phoneIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
